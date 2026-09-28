@@ -71,8 +71,6 @@
 @utility button-primary { display:inline-flex; align-items:center; justify-content:center; gap:.55rem; min-height:3rem; border-radius:var(--radius); background:var(--primary); padding:.75rem 1.15rem; color:var(--primary-foreground); font-weight:800; transition:transform .2s,background .2s; }
 @utility button-primary { &:hover { background:var(--earth); transform:translateY(-1px); } }
 @utility button-light { display:inline-flex; align-items:center; justify-content:center; gap:.55rem; min-height:3rem; border-radius:var(--radius); background:var(--secondary); padding:.75rem 1.15rem; color:var(--secondary-foreground); font-weight:800; }
-@utility hero-kenburns { animation: ken-burns 26s ease-in-out infinite alternate; will-change: transform; }
 @media (prefers-reduced-motion: reduce) { *,*::before,*::after { scroll-behavior:auto!important; transition-duration:.01ms!important; animation-duration:.01ms!important; } }
-@keyframes ken-burns { from { transform: scale(1) translate(0,0); } to { transform: scale(1.15) translate(-1.5%,1%); } }
 @keyframes drawer-in { from { transform: translateX(100%); } to { transform: translateX(0); } }
 @utility drawer-panel { animation: drawer-in .28s ease-out; }
